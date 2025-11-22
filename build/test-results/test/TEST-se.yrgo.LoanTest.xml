@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.yrgo.LoanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-22T11:34:48.139Z" hostname="froggyLaptop" time="0.021">
+  <properties/>
+  <testcase name="testDueDate()" classname="se.yrgo.LoanTest" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
