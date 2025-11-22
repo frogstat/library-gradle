@@ -1,6 +1,12 @@
 plugins {
     id 'java'
+    id 'application'
 }
+
+application {
+    mainClass = 'se.yrgo.ui.Main'
+}
+
 
 group = 'se.yrgo'
 version = '1.0-SNAPSHOT'
@@ -17,4 +23,14 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes('Main-Class': 'se.yrgo.ui.Main')
+    }
+}
+
+tasks.register("doEverything") {
+    dependsOn("build", "javadoc", "run")
 }

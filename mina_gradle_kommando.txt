@@ -15,8 +15,8 @@ gradle javadoc
 
 Detta kan jag automatisera genom att lägga till detta i grade.build
 
-tasks.register("buildRunJavadoc") {
-    dependsOn("build", "run", "javadoc")
+tasks.register("doEverything") {
+    dependsOn("build", "javadoc", "run")
 }
 
 Detta kompilerar allt, gör tester, och skapar jar, kör programmet och skapar javadoc.
