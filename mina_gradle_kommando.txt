@@ -19,5 +19,5 @@ tasks.register("doEverything") {
     dependsOn("build", "javadoc", "run")
 }
 
-Detta kompilerar allt, gör tester, och skapar jar, kör programmet och skapar javadoc.
+Detta kompilerar allt, gör tester, skapar jar, kör programmet och skapar javadoc.
 Allt på en gång.
