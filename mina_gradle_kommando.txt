@@ -1,0 +1,23 @@
+gradle clean
+    Tar bort build mapp
+
+gradle build
+    kompilerar, testar, sedan packer till jar
+
+gradle test
+    Kompilerar och kör tester. Ger fel om ett test misslyckas.
+
+gradle run
+    Kör Main filen som jag angivit i build.gradle
+
+gradle javadoc
+    Skapar javadoc sida för mina klasser
+
+Detta kan jag automatisera genom att lägga till detta i grade.build
+
+tasks.register("buildRunJavadoc") {
+    dependsOn("build", "run", "javadoc")
+}
+
+Detta kompilerar allt, gör tester, och skapar jar, kör programmet och skapar javadoc.
+Allt på en gång.
