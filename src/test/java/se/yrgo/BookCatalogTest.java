@@ -20,11 +20,11 @@ public class BookCatalogTest {
 
 	//G
 	@Test
-	public void testAddABook() {
-        int currentBookIndex = bc.getNumberOfBooks();
-        bc.addBook(book1);
-        assertSame(book1,bc.getBookArray()[currentBookIndex]);
-	}
+    public void testAddABook() throws BookNotFoundException {
+        Book testBook = new Book(55, "Adding books to book catalog for dummies", "", "", "", 4);
+        bc.addBook(testBook);
+        assertSame(testBook, bc.findBook("Adding books to book catalog for dummies"));
+    }
 
 	//G
 	@Test

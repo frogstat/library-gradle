@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="se.yrgo.BookCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-11-22T12:16:53.697Z" hostname="froggyLaptop" time="0.02">
+<testsuite name="se.yrgo.BookCatalogTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-11-22T12:20:35.281Z" hostname="froggyLaptop" time="0.016">
   <properties/>
-  <testcase name="testAddABook()" classname="se.yrgo.BookCatalogTest" time="0.013"/>
-  <testcase name="testFindBook()" classname="se.yrgo.BookCatalogTest" time="0.001"/>
+  <testcase name="testAddABook()" classname="se.yrgo.BookCatalogTest" time="0.011"/>
+  <testcase name="testFindBook()" classname="se.yrgo.BookCatalogTest" time="0.0"/>
   <testcase name="testFindBookIgnoringCase()" classname="se.yrgo.BookCatalogTest" time="0.0"/>
   <testcase name="testFindBookWithExtraSpaces()" classname="se.yrgo.BookCatalogTest" time="0.0"/>
   <testcase name="testFindBookThatDoesntExist()" classname="se.yrgo.BookCatalogTest" time="0.001"/>
